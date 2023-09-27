@@ -4,8 +4,11 @@ import java.util.ArrayList;
 
 public class CafeUtil{
     public int getStreakGoal(){
-        //work on method later
-        return 10;
+        int result = 0;
+        for(int i = 1; i <= 10; i++){
+            result = result + i;
+        }
+        return result;
     }
 
     public double getOrderTotal(double[] prices){
