@@ -1,5 +1,7 @@
 //!Important: Here we will code all of the following methods in our CafeUtil.java file.
 
+import java.util.ArrayList;
+
 public class CafeUtil{
     public int getStreakGoal(){
         //work on method later
@@ -8,7 +10,7 @@ public class CafeUtil{
 
     public double getOrderTotal(double[] prices){
         //work on method later
-        return 1.99
+        return 1.99;
     }
 
     public void displayMenu(ArrayList<String> menuItems){
