@@ -20,7 +20,10 @@ public class CafeUtil{
     }
 
     public void displayMenu(ArrayList<String> menuItems){
-        //work on method later
+        //*Note: in Java the arraylist length is size()
+        for(int i = 0; i < menuItems.size(); i++){
+            System.out.println(i +" "+"-" + " " + menuItems.get(i));
+        }
     }
 
     public void addCustomer(ArrayList<String> customers){
