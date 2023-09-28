@@ -26,8 +26,8 @@ public class CafeUtil{
         }
     }
 
-    // Per programming with Michael W.
-    
+    // Per programming with Michael W.for add customer.
+
     public void addCustomer(ArrayList<String> customers){
         System.out.println("Please enter your name:");
         String username = System.console().readLine();
@@ -35,8 +35,4 @@ public class CafeUtil{
         customers.add(username);
         System.out.println(customers);
     }
-
-
-
-
 }
