@@ -12,8 +12,11 @@ public class CafeUtil{
     }
 
     public double getOrderTotal(double[] prices){
-        //work on method later
-        return 1.99;
+        double sum = 0;
+        for(int i =0; i < prices.length; i++){
+            sum += prices[i];
+        }
+        return sum;
     }
 
     public void displayMenu(ArrayList<String> menuItems){
