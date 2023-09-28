@@ -26,8 +26,14 @@ public class CafeUtil{
         }
     }
 
+    // Per programming with Michael W.
+    
     public void addCustomer(ArrayList<String> customers){
-        //work on method later
+        System.out.println("Please enter your name:");
+        String username = System.console().readLine();
+        System.out.println("Hello, " + username + "! There are " + customers.size() + " people in front of you" );
+        customers.add(username);
+        System.out.println(customers);
     }
 
 
