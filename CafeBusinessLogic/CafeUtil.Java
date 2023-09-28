@@ -22,7 +22,7 @@ public class CafeUtil{
     public void displayMenu(ArrayList<String> menuItems){
         //*Note: in Java the arraylist length is size()
         for(int i = 0; i < menuItems.size(); i++){
-            System.out.println(i +" "+"-" + " " + menuItems.get(i));
+            System.out.println(i +" - " + menuItems.get(i));
         }
     }
 
